@@ -1,0 +1,29 @@
+nav {
+    background-color: palegoldenrod;
+}
+
+footer {
+    background-color: palegoldenrod;
+}
+
+body {
+    text-align: center;
+    background-color:grey;
+}
+
+h1{
+    color:lightskyblue
+}
+
+h2{
+    font-size:35px;
+}
+
+a {
+ margin: 10px;
+ font-size: 20px;
+}
+
+.aboutMe{
+    font-size: 30px;
+}
