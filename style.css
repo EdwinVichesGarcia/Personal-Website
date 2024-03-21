@@ -1,19 +1,46 @@
+html {
+    background-color: rgb(154, 85, 77)
+}
+
 nav {
-    background-color: palegoldenrod;
+    background-color: rgb(109, 64, 61);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 10px;
 }
 
 footer {
-    background-color: palegoldenrod;
+    background-color: rgb(109, 64, 61);;
+    text-align:center;
+    position:fixed;
+    left:0;
+    right:0;
+    bottom:0;
 }
 
+
 body {
-    text-align: center;
-    background-color:grey;
-    width: 75%;
+   background-color: grey;
+    text-align: center; 
+    border: solid black 1px;
+    max-width:900px;
+    margin:auto;
+
+}
+
+main {
+    border: solid black 2px;
+      
+}
+
+section{
+    padding: 5px 5px 25px 5px;
 }
 
 h1{
-    color:lightskyblue
+    color:black;
+    font-family:'Times New Roman', Times, serif;
 }
 
 h2{
@@ -21,10 +48,40 @@ h2{
 }
 
 a {
- margin: 10px;
- font-size: 20px;
+  margin: 10px;
+  font-size: 20px;
+  width: 10px;
+  height: 10px;
+  font-weight: bold;
+  color: black;
+  cursor: pointer;
+}
+
+a:hover {
+    background-color: grey;
+}
+
+
+img {
+   border: solid black;
+   border-radius: 10px; 
 }
 
 .aboutMe{
     font-size: 30px;
+}
+
+.projects {
+    font-size:30px;
+}
+
+.coding {
+    width:200px;
+    height:200px;
+    
+}
+ 
+.graph {
+   width:200px;
+   height:200px;
 }
