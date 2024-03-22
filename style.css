@@ -86,3 +86,26 @@ img {
    height:200px;
 }
 
+@media(max-width:1680) {
+    .tablet
+    .mobile{
+        margin: 0 auto;
+        padding: 0 auto;
+    }
+}
+
+@media(max-width:1024){
+    .desktop
+    .mobile{
+        margin:0 auto;
+        padding: 0 auto;
+    }
+}
+
+@media(max-width:480){
+    .desktop
+    .tablet{
+        margin:0 auto;
+        padding:0 auto;
+    }
+}
