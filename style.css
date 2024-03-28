@@ -1,5 +1,6 @@
 html {
-    background-color: rgb(154, 85, 77)
+    background-color: rgb(154, 85, 77);
+    box-sizing: border-box;
 }
 
 nav {
@@ -8,6 +9,7 @@ nav {
     justify-content: center;
     align-items: center;
     padding: 10px 10px;
+    
 }
 
 footer {
@@ -31,6 +33,7 @@ body {
 
 main {
     border: solid black 2px;
+    min-height: 100vh;
       
 }
 
